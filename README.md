@@ -71,3 +71,6 @@ Released under the terms of Apache 2 License.
           my_class => 'example42::my_standard',
         }
 
+## TESTING
+[![Build Status](https://travis-ci.org/example42/puppet-standard.png?branch=master)](https://travis-ci.org/example42/puppet-standard)
+
