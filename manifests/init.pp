@@ -65,7 +65,7 @@
 # [*noops*]
 #   Set noop metaparameter to true for all the resources managed by the module.
 #   Basically you can run a dryrun for this specific module if you set
-#   this to true. Default: false
+#   this to true. Default: undef
 #
 class standard (
   $my_class            = '',
@@ -80,7 +80,7 @@ class standard (
   $disable             = false,
   $disableboot         = false,
   $audit_only          = false,
-  $noops               = false
+  $noops               = undef
   ) inherits standard::params {
 
   #################################################
